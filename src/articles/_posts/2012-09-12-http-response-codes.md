@@ -75,7 +75,7 @@ If understood, the server will respond to the request with a message starting wi
 	<img elem="media" src="{{ page.id }}/food-truck.png">
 </figure>
 
-The server could respond to the client with a message stating that the content has been temporary moved to a new location. This is useful when you want to redirect a client to a specific page for a little while. For example, imagine a Web address giving the weather forecast for Taipei, and there has lately a very strong typhoon. It would be a good idea to inform users specifically about the typhoon, until it has passed. The request might look like this:
+The server could respond to the client with a message stating that the content has been temporary moved to a new location. This is useful when you want to redirect a client to a specific page for a little while. For example, imagine a Web address giving the weather forecast for Taipei, and there has lately been a very strong typhoon. It would be a good idea to inform users specifically about the typhoon, until it has passed. The request might look like this:
 
 	GET /taiwan/weather/today HTTP/1.1
 	Host: meteo.example.org
